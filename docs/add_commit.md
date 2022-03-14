@@ -12,5 +12,5 @@ git commit -m "My hello world"  # This will tell git that we want to package all
 # The origin doesn't know about your branch or your code at this point so we have to tell it where to put our branch when we push it.
 # The --set-upstream part of the command say push our branch to the origin with the branch name <your branch name>
 git push --set-upstream origin <your branch name>
-# Now the link between the local repository and origin has been made, subsequent pushes can be done with just git push.
+# Now the link between the local repository and origin has been made (merge conflict), subsequent pushes can be done with just git push.
 ```
